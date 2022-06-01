@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#landing-page {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/home-bg.png") no-repeat center center fixed;
+    background-size: cover;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#left-header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+#left-header h1 {
+    color: rgb(60, 80, 40);
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+#logo {
+    height: 80px;
+}
+#right-header {
+    color: #ff5757;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navbar-buttons a{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: #ff5757;
+}
+@keyframes navbar-hover {
+   0% {
+        box-shadow: none;
+    }
+   100% {
+        box-shadow: 0 -10px 15px 5px rgb(60, 80, 40);
+    }
+}
+.navbar-buttons a:hover {
+    animation: navbar-hover 1s forwards;
+}
+
+
+#landing-content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+#landing-box {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(40, 44, 52, 1);
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding-top: 20px;
+    color: white;
+    margin-bottom: 100px;
+}
+#box-content {
+    font-size:10px; 
+    margin: 10px 50px; 
+    letter-spacing: 2px; 
+    font-weight: bold;
+    color: white;
+}
+#landing-picture {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+#my-pic {
+    height: 850px;
+position: absolute;
+bottom: 0;
+}
+
+

@@ -1,0 +1,108 @@
+
+  .c-bl {
+    color: rgb(97, 175, 239);
+}
+.c-gr {
+    color: rgb(137, 202, 120);
+}
+.c-yl {
+  color: rgb(219, 184, 120);
+}
+.c-br {
+    color: rgb(210, 154, 102)
+}
+.c-pr {
+    color: rgb(196, 119, 219);
+}
+.c-rd {
+    color: rgb(224, 108, 117);
+}
+
+.css-typing p {
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 14em;
+  animation: type 2.5s;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 12em;
+  opacity: 0;
+  animation: type2 2s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 13.3em;
+  opacity: 0;
+  animation: type3 2s;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(4) {
+  width: 13.3em;
+  opacity: 0;
+  animation: type3 2s;
+  animation-delay: 6.5s;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(5) {
+  width: 28em;
+  opacity: 0;
+  animation: type3 5s;
+  animation-delay: 8.5s;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(6) {
+  width: 17em;
+  opacity: 0;
+  animation: type3 3s;
+  animation-delay: 13s;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(7) {
+  width: 5em;
+  opacity: 0;
+  animation: type3 .5s;
+  animation-delay: 15.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
